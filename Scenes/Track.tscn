@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://isd3o7ji1m5j"]
 
-[ext_resource type="Script" path="res://Scripts/Track.gd" id="1"]
+[ext_resource type="Script" uid="uid://xi56k8cffpor" path="res://Scripts/Track.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://cbowhq83f53iy" path="res://Scenes/components/track_visual_component.tscn" id="3_i8u01"]
 [ext_resource type="PackedScene" uid="uid://dmtyta68uolwr" path="res://Scenes/TrackJunction.tscn" id="7"]
 
