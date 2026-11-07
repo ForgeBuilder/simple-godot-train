@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://bjqtvbefblx2e" path="res://Scenes/TrainVehicle.tscn" id="2_pqebc"]
 [ext_resource type="PackedScene" uid="uid://jvakchg2s8i4" path="res://Scenes/TrackSwitch.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://cuwbubanwowgv" path="res://Demo/Scenes/TestWorld.tscn" id="4"]
-[ext_resource type="Script" uid="uid://iu3krykox7gu" path="res://Demo/Scripts/TestTracks2.gd" id="5"]
+[ext_resource type="Script" path="res://Demo/Scripts/TestTracks2.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://dk4kss5yu35xs" path="res://Scenes/components/player_control_component.tscn" id="7_x0ked"]
 
 [sub_resource type="Curve2D" id="8"]

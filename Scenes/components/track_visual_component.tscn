@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://cbowhq83f53iy"]
 
 [ext_resource type="Texture2D" uid="uid://bd6aqim053fjy" path="res://Demo/Assets/track.png" id="1_03mqx"]
-[ext_resource type="Script" uid="uid://dldqjxgp1cd2f" path="res://Scripts/components/track_visual_component.gd" id="2_4y0qp"]
+[ext_resource type="Script" path="res://Scripts/components/track_visual_component.gd" id="2_4y0qp"]
 [ext_resource type="Texture2D" uid="uid://cjpxukf4376xo" path="res://Demo/Assets/crosstie.png" id="3_adcjx"]
 
 [sub_resource type="ArrayMesh" id="7"]

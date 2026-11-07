@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dmtyta68uolwr"]
 
-[ext_resource type="Script" uid="uid://b8u1cy8ee2u4l" path="res://Scripts/TrackJunction.gd" id="1"]
+[ext_resource type="Script" path="res://Scripts/TrackJunction.gd" id="1"]
 
 [sub_resource type="CircleShape2D" id="1"]
 
