@@ -18,9 +18,24 @@ var total_mass := mass
 func _ready() -> void:
 	front_bogie.moved.connect(back_bogie.move_as_follower)
 
+static var max_linear_arc_diff = 0
+
 func _process(_delta: float) -> void:
 	global_position = lerp(global_position, front_bogie.global_position, 0.8)
 	body.look_at(back_bogie.global_position)
+	
+	#Elliot written code
+	var distance_linear = (front_bogie.position-back_bogie.position).length()
+	var distance_arc = front_bogie.progress - back_bogie.progress
+	
+	var linear_arc_diff = abs(distance_linear)-abs(distance_arc)
+	
+	if ((linear_arc_diff > max_linear_arc_diff) && (linear_arc_diff < 1)):
+		max_linear_arc_diff = linear_arc_diff
+		print("Max Diff = " + str(max_linear_arc_diff))
+	
+	
+	
 
 # Place this vehicle (and all of its bogies) on the track
 func add_to_track(track: Track, offset : float = 1.0) -> void:
