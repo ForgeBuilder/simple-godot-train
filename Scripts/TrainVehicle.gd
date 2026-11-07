@@ -4,8 +4,8 @@ extends Node2D
 
 signal towed_mass_changed(mass_delta: float)
 
-@export var bogie_distance := 58.0
-@export var follow_distance := 26.0
+@export var bogie_distance := 58 #58.0
+@export var follow_distance := 26 #26.0
 @export var mass := 10.0
 
 var towed_mass := 0.0
